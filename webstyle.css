@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+.reddit-sans-condensed * {
+  font-family: "Reddit Sans Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.ibm-plex-mono-semibold {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:"Reddit Sans Condensed", sans-serif;
+    
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+  
+}
+.navlist{
+    text-decoration: none;
+    font-size: large;
+    display: inline-block;
+    color: black;
+
+
+
+}
+.header{
+    
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+    font: size 18px; 
+    opacity: 86%;
+    color: black;
+    background-color: white;
+    
+}
+.header div{
+display:inline-block;
+gap: 0px;
+}
+.logo{
+    
+    width: 25%;
+    height: 100px;
+    padding-top: 2px;
+    padding-left: 50px;
+    
+}
+.navbar{
+width: 50%;
+padding-left: 30px;
+
+
+}
+nav{
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+    font-size: 21px;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+nav ul li a {
+    display: block;
+    padding: 5px; 
+    text-decoration: none;
+    color: black 
+}
+.header li{
+    text-decoration: none;
+}
+.contact{
+   width:25%;
+   margin-left: 10%;
+   padding-left: 70px;
+}
+.contact  a{
+    text-decoration: none;
+    
+}
+.row1{
+    width:100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+}
+.row img{
+    gap: 0;
+}
+.row1 div{
+    display:inline-block;
+    margin:0;
+    margin-top:0;
+    row-gap:0;
+    padding-top:0%;
+   
+}
+.content{
+    width:100%;
+    height: 40%;
+    /* border: 1px;
+    border-color: black;
+    border-style: dotted; */
+    text-align: center;
+    
+}
+.content h1{
+    font-size: 67px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+.content p{
+    font-family:"Reddit Sans Condensed", sans-serif;
+    font-size: 25px;  
+    line-height: 70px;
+}
+.hailcity {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    gap: 70px;
+    margin-bottom: 300px;
+
+}
+.pic1{
+    margin-left: 50px;
+}
+.hailcontent{
+    width: 50%;
+    height: 40%;
+    text-align: justify;
+}
+.hailcontent p{
+    font-family:"Reddit Sans Condensed", sans-serif;
+    font-size: 20px;  
+    font-weight: 500;
+     line-height: 30px; 
+     letter-spacing: 1.5;
+     word-spacing: 5px;
+     padding-bottom: 10px;
+     
+
+}
+.hailcontent h4{
+    font-size: 35px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+     line-height: 100px; 
+    justify-content: space-between;
+    
+}
+.pic1{
+    padding-top: 60px;
+    /* padding-bottom: 10px; */
+}
+.pic2{
+    padding-top: 30px;
+    padding-left: 50px;    /* padding-bottom: 10px; */
+}
+.footer{
+    width: 100%;
+    height: 60%;
+    column-gap: 50px;
+     text-align: center;
+
+}
+.footer p{
+    font-family:"Reddit Sans Condensed", sans-serif;
+    font-size: 17px;  
+    font-weight: 400;
+     line-height: 30px; 
+     letter-spacing: 1.5;
+    
+     padding-bottom: 10px;
+     padding-top: 300px;
+
+     display:inline-block;
+
+}
+.contact2{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+
+}
+.contact2 div{
+    display:inline-block;
+    padding-bottom: 100px;
+    
+}
+.contact2  a{
+    text-decoration: none;
+    
+}
